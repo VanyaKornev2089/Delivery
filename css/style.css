@@ -103,6 +103,12 @@ body {
 .button--secondary {
     border: 1px solid #D9D9D9;
 }
+.button:hover {
+transform: translateY(-20px);
+transition-duration: 0.5s;
+);
+
+}
 
 .promo__block {
     background: #FFF1B8 url(../img/Promo.png) no-repeat right center;
@@ -189,6 +195,11 @@ body {
     align-items: center;
     margin-bottom: 10px;
 }
+.card:hover {
+transform: translateY(-20px) rotate(-5deg);
+transition-duration: 0.5s;
+
+}
 
 .title {
     font-weight: bold;
@@ -248,7 +259,7 @@ body {
     position: absolute;
     top: 50%;
     left: -15px;
-    margin-top: -2,5px;
+    margin-top: 3px;
     width: 5px;
     height: 5px;
     background: #8C8C8C;
@@ -286,6 +297,10 @@ body {
     margin-left: 25px;
 }
 
+.social-link:hover {
+ transform:  translateY(-10px)  scale(1);
+ transition-duration: 0.5s;
+}
 
 
 
